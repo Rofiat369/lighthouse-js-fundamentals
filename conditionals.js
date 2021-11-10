@@ -22,3 +22,11 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+const temp = 19;
+if (temp < -20 || temp > 20) {
+  console.log("Maybe going outside is not a good idea")
+} else {
+  console.log ("Lets go outside")
+}
+
